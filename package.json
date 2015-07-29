@@ -1,0 +1,24 @@
+{
+  "name": "nodehttpbasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/unit --recursive",
+    "test-integration": "mocha test/integration --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sscotth/nodehttpbasics.git"
+  },
+  "author": "Scott Humphries <scott@sscotth.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sscotth/nodehttpbasics/issues"
+  },
+  "homepage": "https://github.com/sscotth/nodehttpbasics#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
