@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha test/unit --recursive",
-    "test-integration": "mocha test/integration --recursive"
+    "test-integration": "mocha test/integration --recursive",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
